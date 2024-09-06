@@ -1,0 +1,15 @@
+services:
+  localnet:
+    image: docker-sol
+    build:
+      context: ./docked-sol
+    platform: linux/amd64
+    ports:
+      - "8899:8899"
+      - "8900:8900"
+      - "9900:9900"
+    volumes:
+      - ./projects:/work/projects
+    command: bash
+    stdin_open: true 
+    tty : true 
