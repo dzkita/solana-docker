@@ -35,7 +35,7 @@ Este proyecto utiliza varias herramientas para el desarrollo en Solana y Anchor,
 
 1. **Clonar el repositorio**:
    ```bash
-   https://github.com/dzkita/solana-docker
+   git clone https://github.com/dzkita/solana-docker
    cd solana-docker
    ```
 
